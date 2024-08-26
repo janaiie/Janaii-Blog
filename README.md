@@ -22,3 +22,18 @@ Authentication
     Flask-Login: Implemented Flask-Login to handle user authentication. Users can register, log in, and log out securely. The authentication system ensures that only authorized users can access or modify certain content.
 
     Werkzeug: Used Werkzeug for password hashing, providing a secure way to store user passwords. Passwords are hashed before storage, enhancing the security of user credentials.
+
+
+How It Works
+
+    User Setup and Blog Management:
+        Users can set up their own blogs where they can create and manage posts.
+        All registered users can view, reply to, and share their views on these posts.
+
+    Admin Role:
+        The user with the first user ID is designated as the admin.
+        The admin user has special privileges, including the ability to post, edit and delete blog posts.
+
+    User Interaction:
+        Regular users can interact with the posts by commenting and sharing their opinions.
+        
